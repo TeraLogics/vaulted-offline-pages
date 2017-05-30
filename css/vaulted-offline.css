@@ -20,3 +20,16 @@ h1, h2, h3, h4, h5 {
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
+
+a, a:visited, a:focus, a:hover {
+	text-decoration: none;
+}
+
+a:not(.btn) {
+	color: #007b96;
+	font-weight: 900;
+}
+
+a:not(.btn):hover {
+	color: #00adce;
+}
